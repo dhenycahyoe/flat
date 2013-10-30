@@ -98,20 +98,20 @@ a.red {background: #e74c3c; color: #fff;
 a.red:hover {background: #c0392b}
 
 /* Footer */
-footer {width: 100%; float: left; margin-top: 50px; padding: 30px 0; background: #333;}
-footer h3 {color:#ccc;font-size:1em;margin-bottom:5px}
-footer p {color:#aaa;line-height:1.5em;font-size: 12px;margin-bottom: 7px;}
-footer a {color:#ddd;}
-footer a:hover {color: #ff6a00;}
+#footer {width: 100%; float: left; margin-top: 50px; padding: 30px 0; background: #333;}
+#footer h3 {color:#ccc;font-size:1em;margin-bottom:5px}
+#footer p {color:#aaa;line-height:1.5em;font-size: 12px;margin-bottom: 7px;}
+#footer a {color:#ddd;}
+#footer a:hover {color: #ff6a00;}
 
-footer .social a{float:left;margin-right: 5px;padding:10px;color:#fff}
-footer .social a{opacity:1;}
-footer .social a:hover{opacity: .3;}
+#footer .social a{float:left;margin-right: 5px;padding:10px;color:#fff}
+#footer .social a{opacity:1;}
+#footer .social a:hover{opacity: .3;}
 
-footer .social a.fb{background:#3B5998}
-footer .social a.twit{background:#00acee}
-footer .social a.gplus{background:#dd4b39}
-footer .social a.gtub{background:#171515}
+#footer .social a.fb{background:#3B5998}
+#footer .social a.twit{background:#00acee}
+#footer .social a.gplus{background:#dd4b39}
+#footer .social a.gtub{background:#171515}
 
 /* -------------------
 *  RESPOSIVE ELEMENTS
@@ -137,25 +137,4 @@ input[type="submit"] {width: 302px;}
 textarea {width: 280px;}
 #header h1 {font-size: 2.5em}
 #header h2 {font-size: 1em}
-}
-
-#twit ul{padding-left:0!important;}
-#twit ul li p{margin-bottom:0}
-.user, .tweet, .timePosted {
-  float:left;
-}
-
-.user { padding-right:5px
-}
-
-.user {clear:both;}
-
-.user span span,.user img{display:none;} 
-.user a > span {color:#eee}
-.tweet a {color:#eee}
-.interact{}
-.interact a {
-  margin-left:5px;
-  float:left;
-  color: #eee
 }
