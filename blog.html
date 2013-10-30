@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="id"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Blog - OmaGue.com</title>
+<title>Blog - OmaGue.net</title>
 <meta name="description" content="">
 <meta name="author" content=" Made by Keyners">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -186,36 +186,6 @@ jQuery(document).ready(function(){
           return false;
       });
 
-});
-</script>
-</body>
-</html>
-<script type="text/javascript">
-/*--- Active Menu ---*/
-jQuery(document).ready(function(){
- var url = window.location;
- // Will only work if string in href matches with location
- $('.mainMenu li a[href="'+ url +'"]').parent().addClass('active');
-
- // Will also work for relative and absolute hrefs
- $('.mainMenu li a').filter(function() {
-   return this.href == url;
- }).parent().addClass('active');
-
-/*--- Back to Top ---*/
- var toper = $('a#top');
- $(window).scroll(function(){
-  if ($(this).scrollTop() > 100) {
-    toper.fadeIn( 200 );
-  } else {
-    toper.fadeOut( 200 );
-  }
- });
-
- toper.click(function(){
-  $('html, body').animate({scrollTop:0}, 500);            
-  return false;
- });
 });
 </script>
 </body>
